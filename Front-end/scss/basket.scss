@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Logo Orinoco */
+#logo {
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+}
+
+/* Propriété background radiant */
+#background {
+    background: linear-gradient(135deg, rgba(0,0,0,0.8995973389355743) 0%, rgba(214,130,54,1) 0%, rgba(143,91,254,1) 100%);
+}
+
+#bg-transp {
+    background: linear-gradient(135deg, rgba(0,0,0,0.8995973389355743) 0%, rgba(214,130,54,0.35057773109243695) 0%, rgba(143,91,254,0.3477766106442577) 100%);
+}
+
+/* Décalage de basket */
+@media (min-width: 992px) {
+    .margin {
+        margin-right: 66%;
+    }
+}
+
+#name {
+    padding-top: 40px;
+    border: 1px solid black
+}
+
+#product {
+    background: linear-gradient(135deg, rgba(0,0,0,0.8995973389355743) 0%, rgba(214,130,54,0.35057773109243695) 0%, rgba(143,91,254,0.3477766106442577) 100%);
+    
+}
+
+#product-img {
+    background-color: #FFFFFF;
+    
+}
+
+#btn-delete {
+    padding-top: 40px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}

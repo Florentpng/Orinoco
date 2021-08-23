@@ -1,0 +1,34 @@
+@charset "UTF-8";
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+/* Propriété background radiant */
+#background {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8995973389) 0%, #d68236 0%, #8f5bfe 100%);
+}
+
+/* Propriété des cards background radiant 35% opaque */
+#card-footer {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8995973389) 0%, rgba(214, 130, 54, 0.3505777311) 0%, rgba(143, 91, 254, 0.3477766106) 100%);
+}
+
+/* Jumbotron */
+#background-jumb {
+  background: linear-gradient(60deg, black 0%, #d68236 0%, #8f5bfe 100%);
+}
+
+/* Logo Orinoco */
+#logo {
+  font-family: "Lobster", cursive;
+  font-size: 35px;
+}
+
+/* Décalage de basket */
+@media (min-width: 992px) {
+  .margin {
+    margin-right: 66%;
+  }
+}
+
+/*# sourceMappingURL=confirm.css.map */

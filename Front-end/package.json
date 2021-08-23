@@ -1,0 +1,14 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "index": "sass --watch scss/style.scss:css/style.css",
+    "custom": "sass --watch scss/custom.scss:css/custom.css",
+    "basket": "sass --watch scss/basket.scss:css/basket.css",
+    "confirm": "sass --watch scss/confirm.scss:css/confirm.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

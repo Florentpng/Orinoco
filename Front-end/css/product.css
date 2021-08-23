@@ -1,0 +1,85 @@
+@charset "UTF-8";
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+/* Logo Orinoco */
+#logo {
+  font-family: "Lobster", cursive;
+  font-size: 35px;
+}
+
+/* Propriété background radiant */
+#background {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8995973389) 0%, #d68236 0%, #8f5bfe 100%);
+}
+
+#bg-transp {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8995973389) 0%, rgba(214, 130, 54, 0.3505777311) 0%, rgba(143, 91, 254, 0.3477766106) 100%);
+}
+
+/* Décalage de basket */
+@media (min-width: 992px) {
+  .margin {
+    margin-right: 66%;
+  }
+}
+#black {
+  color: black;
+}
+
+#chocolate {
+  color: sienna;
+}
+
+#brown {
+  color: saddlebrown;
+}
+
+#tan {
+  color: #988558;
+}
+
+#white {
+  color: white;
+}
+
+#blue {
+  color: blue;
+}
+
+#pink {
+  color: HotPink;
+}
+
+#darkbrown {
+  color: #522a0e;
+}
+
+#palebrown {
+  color: #987653;
+}
+
+#beige {
+  color: #c5a688;
+}
+
+@media (min-width: 992px) {
+  .card-horizontal {
+    display: flex;
+  }
+}
+#name {
+  opacity: 0;
+}
+
+#name-bg {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8995973389) 0%, #d68236 0%, #8f5bfe 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  border-bottom: 2px solid black;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=custom.css.map */
