@@ -1,1 +1,1 @@
-Projet Orinoco de OC, contient un fichier HTML et un fichier CSS
+Projet Orinoco de OC, contient une partie backend et une partie frontend
