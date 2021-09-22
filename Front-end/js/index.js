@@ -1,13 +1,13 @@
 main()
 
-async function main() {
+async function main() { /** Exécution des fonctions de la page */
     const articles = await getArticles()
     for (article of articles) {
         displayArticle(article)
     }
 }
 
-function getArticles() { /** Récuperation des articles du back-end */
+function getArticles() { /** Récupération des articles du back-end */
     return fetch("http://localhost:3000/api/teddies/")
     .then(function(httpBodyResponse) {
         return httpBodyResponse.json()
