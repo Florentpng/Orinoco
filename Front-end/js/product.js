@@ -9,7 +9,7 @@ async function main() { /** Exécution des fonctions de la page */
 }
 
 function getArticles() { /** Récupération des informations de l'article sélectionné du back-end */
-    return fetch("http://localhost:3000/api/teddies/"+ productId)
+    return fetch("https://orinocoflo.herokuapp.com/api/teddies/"+ productId)
     .then(function(httpBodyResponse) {
         return httpBodyResponse.json()
     })
